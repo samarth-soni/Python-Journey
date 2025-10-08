@@ -1,0 +1,23 @@
+# Program to display marks of 6 students in a sorted list   
+marks = []
+
+M1 = int(input("Enter the marks of student 1: "))
+marks.append(M1)
+
+M2 = int(input("Enter the marks of student 2: "))
+marks.append(M2)
+
+M3 = int(input("Enter the marks of student 3: "))
+marks.append(M3)
+
+M4 = int(input("Enter the marks of student 4: "))
+marks.append(M4)
+
+M5 = int(input("Enter the marks of student 5: "))
+marks.append(M5)
+
+M6 = int(input("Enter the marks of student 6: "))
+marks.append(M6)
+
+marks.sort()
+print("Sorted marks:", marks)
